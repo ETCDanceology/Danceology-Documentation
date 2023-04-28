@@ -2,6 +2,8 @@ site_name: Danceology Documentation
 theme:
   name: material
   custom_dir: overrides
+  favicon: img/favicon.ico
+  logo: img/logo.png
   palette:
     - scheme: default
       primary: indigo
@@ -37,15 +39,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  # - BitterBuster: 
-  #   - Installation: bitterbuster/installation.md
-  #   - Build: bitterbuster/build.md
-  #   - Implementation Details: bitterbuster/implementation.md
-  #   - Future Development: bitterbuster/future.md
-  #   - Data Schema: 
-  #     - Game Configuration: bitterbuster/data/config.md
-  #     - Logging Data: bitterbuster/data/logging.md
-  #     - AI Support [WIP]: bitterbuster/data/ai.md
-  # - Candy Generator: 
-  #   - Documentation: candygenerator/docs.md
+  - Codebase: 
+    - Installation: codebase/installation.md
+    - Build: codebase/build.md
+    - Implementation Details: codebase/implementation.md
   - License: license.md

@@ -12,3 +12,8 @@ All related assets to this project fall under the CC BY-NC-SA 4.0 License
 
 All future derivations of this work should contain attribution to the members listed above.
 
+## Getting Started
+
+Follow the instructions on the [Installation](/codebase/installation/) and [Build](/codebase/build/) pages to generate your own working local build of the codebase.
+
+For development purposes, refer to the [Implementation Details](/codebase/implementation/) page.
