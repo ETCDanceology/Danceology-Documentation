@@ -8,12 +8,16 @@ Christine Jung, Xiaoying Meng, Jiacheng Qiu, Yiming Xiao, Xueying Yang, Angela Z
 
 **Attribution**
 
-All related assets to this project fall under the CC BY-NC-SA 4.0 License
+All related assets to this project fall under the [CC BY-NC-SA 4.0 License](/license)
 
 All future derivations of this work should contain attribution to the members listed above.
 
-## Getting Started
+## Getting Started - Unity
 
-Follow the instructions on the [Installation](/codebase/installation/) and [Build](/codebase/build/) pages to generate your own working local build of the codebase.
+Follow the instructions on the [Installation](/unity/installation/) and [Build](/unity/build/) pages to generate your own working local build of the Unity codebase.
 
-For development purposes, refer to the [Implementation Details](/codebase/implementation/) page.
+For development purposes, refer to the [Implementation Details](/unity/implementation/) page.
+
+## Getting Started - ML
+
+Follow the instructions on the [Installation](/ml/installation/) page to get started with the ML codebase locally.

@@ -39,8 +39,11 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Codebase: 
-    - Installation: codebase/installation.md
-    - Build: codebase/build.md
-    - Implementation Details: codebase/implementation.md
+  - Unity: 
+    - Installation: unity/installation.md
+    - Build: unity/build.md
+    - Codebase Structure: unity/structure.md
+    - Implementation: unity/implementation.md
+  - ML:
+    - Installation: ml/installation.md
   - License: license.md
