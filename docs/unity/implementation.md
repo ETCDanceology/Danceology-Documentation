@@ -89,6 +89,7 @@ Movement scoring for this project was done in the following way:
 5. To account for potential webcam delays, we repeat the above and score a few frames before & after the intended "key pose" frame, then take the maximum score across all.
 
 There are a few more nuances in how we handle edge cases, such as:
+
 - If a point was not captured by the webcam
 - If a point was not present in the reference data
 - If the distance between points was too miniscule (close to zero) and causes issues in calculations of the above
