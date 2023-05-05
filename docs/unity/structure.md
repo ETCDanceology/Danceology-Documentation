@@ -67,13 +67,10 @@ This directory contains global managers used within the scenes. These Managers a
 #### PoseProcessing
 All of the logic for processing various aspects of pose input, comparison, and output (display within the experience) are contained within this folder.
 
-`OpenPoseOutputProcessor.cs` is the most low-level script within this folder that directly works with the output of the ML model. It performs all the basic conversions from the direct heatmap output of the model into readable formats for the rest of the code.
-
-`PoseDetector.cs` contains the global logic used to detect and perform computations/actions based on the webcam input as parsed by the ML model. Most of the general actions will go through this file.
-
-`MovementCompare.cs` specifically handles how the webcam input for the player's actions are compared and scored against the reference video positions.
-
-`OutputDataReader.cs` will convert and display the points found by the model into visible UI markers for the player.
+- `OpenPoseOutputProcessor.cs` is the most low-level script within this folder that directly works with the output of the ML model. It performs all the basic conversions from the direct heatmap output of the model into readable formats for the rest of the code.
+- `PoseDetector.cs` contains the global logic used to detect and perform computations/actions based on the webcam input as parsed by the ML model. Most of the general actions will go through this file.
+- `MovementCompare.cs` specifically handles how the webcam input for the player's actions are compared and scored against the reference video positions.
+- `OutputDataReader.cs` will convert and display the points found by the model into visible UI markers for the player.
 
 #### Sound
 This directory contains managers and related scripts for SFX and BGM used in the game.
