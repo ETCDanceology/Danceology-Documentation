@@ -1,8 +1,8 @@
 ---
-title: Danceology Building
+title: Unity Building
 ---
 
-# Danceology Building
+# Unity Building
 ## Overview
 This document provides the details on how to make a build for the Danceology application.
 

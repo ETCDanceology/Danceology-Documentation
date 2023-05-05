@@ -1,8 +1,8 @@
 ---
-title: Danceology-Unity Installation
+title: Unity Installation
 ---
 
-# Danceology-Unity Installation
+# Unity Installation
 ## Overview
 This document provides the details on how to install and set up a development environment for the Unity portion of the Danceology project. All of the following documentation will assume a certain amount of familiarity with [Unity](https://docs.unity.com/) and [Git/GitHub](https://docs.github.com/en) technologies.
 

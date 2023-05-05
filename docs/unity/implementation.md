@@ -1,8 +1,8 @@
 ---
-title: Implementation
+title: Unity Implementation
 ---
 
-# Implementation
+# Unity Implementation
 ## Overview
 This document provides implementation details on the Danceology project; specifically, we will provide details on how different features are being implemented and what the main gameplay loop looks like from the implementation-side.
 
@@ -77,6 +77,8 @@ The general levels will provide specific feedback and manipulate the UI accordin
 Firstly, the given level data is read in from a `.json` file in the `Assets/Resources` folder using the functions provided in the `Assets/Scripts/Data/LevelData.cs` file. Once read, the level data will contain all of the keypoints (both 2D and 3D) for the loaded file along with a list of **Key Poses**. For the entirety of the experience, we refer to poses/frames where we score the user as "key poses", and they are what the team identified to be the most identifiable "poses" within the back exercise. As of the final build, only the 2D and key pose data are used for pose matching; 3D data is no longer being used to directly drive model animation.
 
 On each input frame from the webcam, the frame is passed to the OpenPose ML model via the `PoseDetector` script; the output of this model is converted using the `OpenPoseOutputProcessor` class, and `MovementCompare` uses this information along with the reference keypoints to determine accuracy.
+
+##### Movement Scoring
 
 Movement scoring for this project was done in the following way:
 

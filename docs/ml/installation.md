@@ -1,8 +1,8 @@
 ---
-title: Danceology-ML Installation
+title: ML Installation
 ---
 
-# Danceology-ML Installation
+# ML Installation
 ## Overview
 This document provides the details on how to install and set up a development environment for the Python-based/ML component of the Danceology project. All of the following documentation will assume a certain amount of familiarity with [Python](https://www.python.org/) and [Git/GitHub](https://docs.github.com/en) technologies.
 

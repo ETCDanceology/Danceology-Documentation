@@ -1,8 +1,8 @@
 ---
-title: Codebase Structure
+title: Unity Codebase Structure
 ---
 
-# Codebase Structure
+# Unity Codebase Structure
 ## Folder Structure
 Danceology follows the standard folder structure of Unity Projects. Most edits will take place in the `Assets` folder, which contains:
 
